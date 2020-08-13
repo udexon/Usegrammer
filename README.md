@@ -79,7 +79,7 @@ sm_proc( hpr, xyz, "svp:" );
 This is in accordance to the convention of stack machine, i.e. "last in first out". Later we will demonstrate that the LIFO order can be changed to FIFO using some metaprogramming tricks, i.e. We wish to rewrite the parameters of `sm_proc()` to follow C++ conventions, for reasons also to be disclosed later:
 
 ```C++
-  sm_proc( "dsSetViewpoint(". xyz, hpr, ")" );
+  sm_proc( "dsSetViewpoint(", xyz, hpr, ")" );
 ```
 
 ```C++
