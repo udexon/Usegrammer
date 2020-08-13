@@ -19,6 +19,7 @@ ODE and BTOSG are low level physics simulation libraries that can be used in gam
 
 [SymForth](https://github.com/udexon/SymForth) is SymEngine with Forth (Phoscript) wrapper,   &mdahs; a fast symbolic manipulation library, written in C++, now with Reverse Polish Notation support. It consists of samples of fundamental data structure and execution framework that will be deployed in the current project.
 
+Readers are encouraged to refer to the articles mentioned above as fundamental principles of Phoscript code in this project.
     
 
 
