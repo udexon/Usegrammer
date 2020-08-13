@@ -7,3 +7,13 @@ It is made possible by Phoscript, a lightweight Forth derivative that can be imp
 Underlying this is the "programming language fragmentation" problem &mdash; the emergence of mutually incompatible programming languages over the past few decades results in the fragmentation of programmer communities, reducing the number of programmers able to work on some older projects, written in older programming languages.
 
 This seemingly intractable problem actually has a very simple solution &mdash; so simple that it usually causes disbelief in less experienced programmers, as well as dismay amongst more experienced programmers, who for better or worse, naturally invoke some kind of defense mechanisms such as, "this is new to me, so I had better attack it so as not to embarrass myself when questioned about it."
+
+We illustrate the significance of "Usegrammers" with 2 relatively little known C++ projects:
+
+- Open Dynamics Engine (ODE)
+- Bullet Open Scene Graph (BTOSG) https://github.com/miguelleitao/btosg
+
+ODE and BTOSG are low level physics simulation libraries that can be used in games and simulation applications.
+
+
+
