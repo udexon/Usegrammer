@@ -48,3 +48,16 @@ As such, "simplifying C++ code using RPNX" may convey two categories of features
 For novice programmers, simplifying one C++ statement or a block of C++ statements to an RPNX _word_ (a special term referring to a token in Forth terminology) or a list of RPNX words, is the most obvious, trivial and yet practical benefit.
 
 For expert programmers, representing C++ statements using RPNX has many metaprogramming benefits, which are of great significance.
+
+
+Figure 3
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/ODE_buggy_svp.png" width=600>
+
+```C++
+  // 2020-08-08 Phos code
+  sm_proc( hpr, xyz, "svp:" );
+  
+  // 2020-08-08 original ODE code
+  // dsSetViewpoint (xyz,hpr);
+```
+
