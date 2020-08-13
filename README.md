@@ -15,7 +15,12 @@ We illustrate the significance of "Usegrammers" with 2 relatively little known C
 
 ODE and BTOSG are low level physics simulation libraries that can be used in games and simulation applications.
 
-https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md
+[Phoscript Tutorials](https://github.com/udexon/Multiweb/blob/master/Phoscript_Tutorials.md) gives a list of tutorials with sample code of Phoscript implemented on various platforms and programming languages. 
+
+[SymForth](https://github.com/udexon/SymForth) is SymEngine with Forth (Phoscript) wrapper,   &mdahs; a fast symbolic manipulation library, written in C++, now with Reverse Polish Notation support. It consists of samples of fundamental data structure and execution framework that will be deployed in the current project.
+
+    
+
 
 https://github.com/udexon/btosg/blob/master/examples/car.cpp
 
