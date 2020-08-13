@@ -120,3 +120,14 @@ void sm_proc(T t, Args... args) // recursive variadic function
     sm_proc(args...) ;
 }
 ```
+
+
+Figure 6
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_1.png" width=600>
+
+Figure 7
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_2.png" width=600>
+
+
+Figure 8
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func.png" width=600>
