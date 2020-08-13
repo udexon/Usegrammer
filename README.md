@@ -68,6 +68,16 @@ Figure 3
   // dsSetViewpoint (xyz,hpr);
 ```
 
+`sm_proc()` is implemented as a recursive variadic function, so as to take variable number of parameters as shown in figures 4 and 5. The prefix `sm_` stands for "stack machine".
+
+
+Figure 4
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_1.png" width=600>
+
+Figure 5
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_2.png" width=600>
+
+
 ```C++
 // sm_proc recursive variadic 
 template <typename T>
