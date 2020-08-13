@@ -49,6 +49,13 @@ For novice programmers, simplifying one C++ statement or a block of C++ statemen
 
 For expert programmers, representing C++ statements using RPNX has many metaprogramming benefits, which are of great significance.
 
+Let us illustrate this with `dsSetViewpoint (xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16):
+
+- https://bitbucket.org/odedevs/ode/src/master/ode/demo/demo_buggy.cpp
+
+Line 222 has been moved to line 378 in our version of `demo_buggy.cpp` as we have inserted quite a number of lines to implement Phoscript.
+
+The Phoscript equivalent of line 378 is `sm_proc( hpr, xyz, "svp:" )` in line 374, as shown in figure 3.
 
 Figure 3
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/ODE_buggy_svp.png" width=600>
