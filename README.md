@@ -68,3 +68,45 @@ Figure 3
   // dsSetViewpoint (xyz,hpr);
 ```
 
+```C++
+// sm_proc recursive variadic 
+template <typename T>
+void sm_proc(T t) 
+{
+    // std::cout << t << std::endl ;
+    
+    std::cout << t << ' ' ;
+    std::cout << typeid(t).name() << ' ' ;
+    std::cout << std::is_function<decltype(t)>::value << ' ';
+    std::cout << "    is_string " << is_string<decltype(t)>::value << ' ';
+    std::cout << sm_typeof(t) <<std::endl  ;
+    
+    if ( (is_string<decltype(t)>::value)==1 ) {
+      // std::cout << "    last char " << t.back() <<std::endl  ;
+      // std::cout << "    last char "  <<std::endl  ;
+      std::string s_t(t);
+      std::cout << "    s_t " << s_t << "    last char " << sm_lastchar(s_t) <<std::endl  ;
+    }
+    else sm_lastchar(t); // sm_S.push(t);
+}
+
+template<typename T, typename... Args>
+void sm_proc(T t, Args... args) // recursive variadic function
+{
+    std::cout << t << ' ' ;
+    std::cout << typeid(t).name() << ' ' ;
+    std::cout << std::is_function<decltype(t)>::value << ' ';
+    std::cout << "    is_string " << is_string<decltype(t)>::value << ' ';
+    std::cout << sm_typeof(t) <<std::endl  ;
+
+    // if (1) {
+    if ( (is_string<decltype(t)>::value)==1 ) {
+      // std::cout << "    last char " << t.back() <<std::endl  ;
+      // std::cout << "    last char "  <<std::endl  ;
+      std::cout << "    last char " << sm_lastchar(t) <<std::endl  ;
+    }
+    else sm_lastchar(t); // sm_S.push(t);
+
+    sm_proc(args...) ;
+}
+```
