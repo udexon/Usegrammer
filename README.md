@@ -20,14 +20,18 @@ ODE and BTOSG are low level physics simulation libraries that can be used in gam
 [SymForth](https://github.com/udexon/SymForth) is SymEngine with Forth (Phoscript) wrapper,   &mdahs; a fast symbolic manipulation library, written in C++, now with Reverse Polish Notation support. It consists of samples of fundamental data structure and execution framework that will be deployed in the current project.
 
 Readers are encouraged to refer to the articles mentioned above as fundamental principles of Phoscript code in this project.
-    
 
+In the original [`car.cpp`](https://github.com/udexon/btosg/blob/master/examples/car.cpp) in `miguelleitao/btosg`, lines 197 to 203 create a 4 wheeled car, as shown in figure 1:
 
-https://github.com/udexon/btosg/blob/master/examples/car.cpp
-
+Figure 1
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car1.png" width=600>
 
+We have duplicated lines 197 to 203 with [modifications (lines 205 to 232)](https://github.com/udexon/btosg/blob/master/examples/car.cpp) , in order to create 3 additional cars as shown in figure 2:
+
+Figure 2
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car4.png" width=600>
 
+Our primary goal is to create a text input window in the application, where user (programmer) (hence "Usegrammer) can enter commands in Phoscript (Forth like Reverse Polish Notation), to ___FULLY CONTROL and MANIPULATE___ all objects and elements of the application (program), much like how a Unix shell is able to control and manipulate all elements in the operating system.
 
+The modifications to `car.cpp` so far aim to verify if BTOSG code structure is flexible and robust enough to create a new object easily. Subsequemtly we will introduce Phoscript constructs like those available in ODE example and other articles in Phoscript Tutorials, to achieve a fully functional programmable shell within the program itself.
 
