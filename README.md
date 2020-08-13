@@ -35,3 +35,16 @@ Our primary goal is to create a text input window in the application, where user
 
 The modifications to `car.cpp` so far aim to verify if BTOSG code structure is flexible and robust enough to create a new object easily. Subsequemtly we will introduce Phoscript constructs like those available in ODE example and other articles in Phoscript Tutorials, to achieve a fully functional programmable shell within the program itself.
 
+A Forth like Reverse Polish Notation expression (RPNX) is typically a space delimited list of words, e.g.
+
+```
+... a b c d ...
+```
+
+Compared to a LISP statement which includes an opening and closing bracket, RPNX is slightly more economical, but we shall explore the more fundamental significance of their differences later.
+
+As such, "simplifying C++ code using RPNX" may convey two categories of features, according to the levels of expertise of the user or programmer.
+
+For novice programmers, simplifying one C++ statement or a block of C++ statements to an RPNX _word_ (a special term referring to a token in Forth terminology) or a list of RPNX words, is the most obvious, trivial and yet practical benefit.
+
+For expert programmers, representing C++ statements using RPNX has many metaprogramming benefits, which are of great significance.
