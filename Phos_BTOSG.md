@@ -26,10 +26,10 @@ In the original [`car.cpp`](https://github.com/udexon/btosg/blob/master/examples
 Figure 1
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car1.png" width=600>
 
-We have duplicated lines 197 to 203 with [modifications (lines 205 to 232)](https://github.com/udexon/btosg/blob/master/examples/car.cpp) , in order to create 3 additional cars as shown in figure 2:
+We have duplicated lines 197 to 203 with [modifications](https://github.com/udexon/btosg/blob/master/examples/car.cpp) , in order to create 4 additional cars as shown in figure 2:
 
 Figure 2
-<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car4.png" width=600>
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car5.png" width=600>
 
 Our primary goal is to create a text input window in the application, where user (programmer) (hence "Usegrammer) can enter commands in Phoscript (Forth like Reverse Polish Notation), to ___FULLY CONTROL and MANIPULATE___ all objects and elements of the application (program), much like how a Unix shell is able to control and manipulate all elements in the operating system.
 
@@ -48,6 +48,15 @@ As such, "simplifying C++ code using RPNX" may convey two categories of features
 For novice programmers, simplifying one C++ statement or a block of C++ statements to an RPNX _word_ (a special term referring to a token in Forth terminology) or a list of RPNX words, is the most obvious, trivial and yet practical benefit.
 
 For expert programmers, representing C++ statements using RPNX has many metaprogramming benefits, which are of great significance.
+
+From lines 387 to 410 in the modified `car.cpp`, we demonstrated 4 different ways of writing the code to create a new car, as shown in figure 3:
+
+Figure 3
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/car_create_4.png" width=600>
+
+
+
+`sm_proc( "newcar:" )`
 
 Let us illustrate this with `dsSetViewpoint (xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16):
 
