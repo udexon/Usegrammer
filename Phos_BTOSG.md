@@ -78,9 +78,13 @@ Line 409 `sm_proc()` maps the input string `newcar:` to the function `sm_newcar(
 Figure 4
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func_car.png" width=600>
 
-Let us illustrate this with `dsSetViewpoint (xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16):
+Let us illustrate how Phoscript RPNX handles C++ functions with parameters using `dsSetViewpoint(xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16), as shown in figure 5.:
 
 - https://bitbucket.org/odedevs/ode/src/master/ode/demo/demo_buggy.cpp
+
+Figure 5
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/demo_buggy.png" width=600>
+
 
 Line 222 has been moved to line 378 in our version of `demo_buggy.cpp` as we have inserted quite a number of lines to implement Phoscript.
 
