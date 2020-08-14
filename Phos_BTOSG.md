@@ -149,7 +149,7 @@ Further, Phos colon definition words or aliases can be used with Unicode, provid
 
 In the ODE example, `dsSetViewpoint(xyz,hpr)` has been transformed into 
 ```
-sm_proc( hpr, xyz, "svp:" )`
+sm_proc( hpr, xyz, "svp:" )
 ```
 
 We believe that `svp:` is easier to remember than `dsSetViewpoint` .
