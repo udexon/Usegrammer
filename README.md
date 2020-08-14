@@ -26,7 +26,7 @@ In the original [`car.cpp`](https://github.com/udexon/btosg/blob/master/examples
 Figure 1
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car1.png" width=600>
 
-We have duplicated lines 197 to 203 with [modifications (lines 205 to 232)](https://github.com/udexon/btosg/blob/master/examples/car_1.cpp) , in order to create 3 additional cars as shown in figure 2:
+We have duplicated lines 197 to 203 with [modifications (lines 221 to 250)](https://github.com/udexon/btosg/blob/master/examples/car_1.cpp) , in order to create 3 additional cars as shown in figure 2:
 
 Figure 2
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car4.png" width=600>
