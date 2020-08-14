@@ -31,7 +31,7 @@ We have duplicated lines 197 to 203 with [modifications](https://github.com/udex
 Figure 2
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car5.png" width=600>
 
-Our primary goal is to create a text input window in the application, where user (programmer) (hence "Usegrammer) can enter commands in Phoscript (Forth like Reverse Polish Notation), to ___FULLY CONTROL and MANIPULATE___ all objects and elements of the application (program), much like how a Unix shell is able to control and manipulate all elements in the operating system.
+Our primary goal is to create a text input window in the application, where user (programmer) (hence "Usegrammer") can enter commands in Phoscript (Forth like Reverse Polish Notation), to ___FULLY CONTROL and MANIPULATE___ all objects and elements of the application (program), much like how a Unix shell is able to control and manipulate all elements in the operating system.
 
 The modifications to `car.cpp` so far aim to verify if BTOSG code structure is flexible and robust enough to create a new object easily. Subsequemtly we will introduce Phoscript constructs like those available in ODE example and other articles in Phoscript Tutorials, to achieve a fully functional programmable shell within the program itself.
 
@@ -69,11 +69,14 @@ Lines 391 to 396 simply use a slightly different variable name to create a new c
 
 Lines 399 to 405 use variables in Phoscript convention.
 
-Line 407 calls `sm_newcar()` which package the code above in a separate function. The `sm_` prefix is an abbreviation for "stack machine".
+Line 407 calls `sm_newcar()` which packagesl the code above in a separate function. The `sm_` prefix is an abbreviation for "stack machine".
 
 Line 409 `sm_proc()` maps the input string `newcar:` to the function `sm_newcar()`.
 
-`sm_proc( "newcar:" )`
+`sm_proc( "newcar:" )`illustrates a trivial case of Phoscript RPNX where a host (C++) function is called WITHOUT any parameter. The mapping is accomplished in line 234 in function `map_func()` as shown in figure 4:
+
+Figure 4
+<img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func_car.png" width=600>
 
 Let us illustrate this with `dsSetViewpoint (xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16):
 
