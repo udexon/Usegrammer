@@ -88,19 +88,19 @@ Figure 5
 
 Line 222 has been moved to line 378 in our version of `demo_buggy.cpp` as we have inserted quite a number of lines to implement Phoscript.
 
-The Phoscript equivalent of line 378 is `sm_proc( hpr, xyz, "svp:" )` in line 374, as shown in figure 3.
+The Phoscript equivalent of line 378 `dsSetViewpoint(xyz,hpr)` is `sm_proc( hpr, xyz, "svp:" )` in line 374, as shown in figure 6.
 
-Figure 3
+Figure 6
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/ODE_buggy_svp.png" width=600>
 
 
 `sm_proc()` is implemented as a recursive variadic function, so as to take a variable number of parameters as shown in figures 4 and 5. The prefix `sm_` stands for "stack machine".
 
 
-Figure 4
+Figure 7
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_1.png" width=600>
 
-Figure 5
+Figure 8
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_2.png" width=600>
 
 Firstly, the order of parameters in `dsSetViewpoint(xyz,hpr)` has been reversed:
@@ -167,12 +167,12 @@ void sm_proc(T t, Args... args) // recursive variadic function
 ```
 
 
-Figure 6
+Figure 9
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_1.png" width=600>
 
-Figure 7
+Figure 10
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_2.png" width=600>
 
 
-Figure 8
+Figure 11
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func.png" width=600>
