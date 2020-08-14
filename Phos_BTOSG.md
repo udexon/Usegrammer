@@ -94,7 +94,7 @@ Figure 6
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/ODE_buggy_svp.png" width=600>
 
 
-`sm_proc()` is implemented as a recursive variadic function, so as to take a variable number of parameters as shown in figures 4 and 5. The prefix `sm_` stands for "stack machine".
+`sm_proc()` is implemented as a recursive variadic function, so as to take a variable number of parameters as shown in figures 7 and 8. The prefix `sm_` stands for "stack machine".
 
 
 Figure 7
