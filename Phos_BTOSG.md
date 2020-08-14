@@ -54,7 +54,24 @@ From lines 387 to 410 in the modified `car.cpp`, we demonstrated 4 different way
 Figure 3
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/car_create_4.png" width=600>
 
+The original code to create a new car is shown below:
+```
+    // Car
+    myVehicle = new btosgVehicle(&myWorld);
+    myVehicle->setPosition(btosgVec3(up*3.));
+    myVehicle->setName("Vehicle");
+    myVehicle->setMass(800.);
+    myWorld.addObject( myVehicle );
+    myVehicle->printInfo();
+```
 
+Lines 391 to 396 simply use a slightly different variable name to create a new car, just to make sure BTOSG is robust enough to create a new car without problems.
+
+Lines 399 to 405 use variables in Phoscript convention.
+
+Line 407 calls `sm_newcar()` which package the code above in a separate function. The `sm_` prefix is an abbreviation for "stack machine".
+
+Line 409 `sm_proc()` maps the input string `newcar:` to the function `sm_newcar()`.
 
 `sm_proc( "newcar:" )`
 
