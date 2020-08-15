@@ -186,7 +186,7 @@ The examples of Phoscript words (function tokens) described in this article, `ne
 
 2. Secondly, due to its suitability for both novice and experts, Phoscript can be picked up by the millions of novice programmers out there, especially non-Latin speakers who make up of the majority of the world population. Further, as they gain expertise, they can still use Phoscript to develop more advanced applications or modules.
 
-3. There should be at least 50 million dedicated gamers worldwide if we assume every 1 in 100 of the population is a gamer. Assuming 1 in 100 gamers would spend some time learning programming to make modifications to games gives us 500,000 gamer-programmers. These are the typical Usegrammers we receive in this article. 
+3. There should be at least 50 million dedicated gamers worldwide if we assume every 1 in 100 of the population is a gamer. Assuming 1 in 100 gamers would spend some time learning programming to make modifications to games, this gives us 500,000 gamer-programmers. These are the typical Usegrammers we describe in this article. 
 
 Ultimately, we wish to ....
 
