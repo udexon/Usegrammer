@@ -163,14 +163,14 @@ sm_proc( "dsSetViewpoint(", xyz, hpr, ")" );
 
 In this way, we minimize the changes made to the original C++ code by preserving the order of function name, parameters and even brackets, where we simply tokenize them.
 
-By passing the parameter `"dsSetViewpoint("` to `sm_proc()`, it can then look up the function prototype for `dsSetViewpoint()`, and thus determine the number of types of its parameters, further automating parameter handling in `sm_proc()`. Currently, the parameters of `sm_svp()` are coded manually, as shown below:
+By passing the parameter `"dsSetViewpoint("` to `sm_proc()`, it can also look up the function prototype for `dsSetViewpoint()`, and thus determine the number and types of its parameters, further automating parameter handling in `sm_proc()`. Currently, the parameters of `sm_svp()` are coded manually, which is still relatively straightforward, as shown below:
 
 ```C++
 void sm_svp() // set view point
 { 
   float *fa=(float*) sm_pop(); 
   printf("\n\nIn sm_svp\nsm_S: %f\n", fa[0]); 
-  float *fb=(float*)sm_pop(); 
+  float *fb=(float*) sm_pop(); 
   printf("sm_S: %f\n", fb[0]); 
   dsSetViewpoint (fa,fb); 
 }
