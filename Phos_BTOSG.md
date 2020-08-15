@@ -23,13 +23,13 @@ Readers are encouraged to refer to the articles mentioned above as fundamental p
 
 In the original [`car.cpp`](https://github.com/udexon/btosg/blob/master/examples/car.cpp) in `miguelleitao/btosg`, lines 197 to 203 create a 4 wheeled car, as shown in figure 1:
 
-Figure 1
+- Figure 1
 
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car1.png" width=600>
 
 We have duplicated lines 197 to 203 with [modifications](https://github.com/udexon/btosg/blob/master/examples/car.cpp) , in order to create 4 additional cars as shown in figure 2:
 
-Figure 2
+- Figure 2
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car5.png" width=600>
 
 Our primary goal is to create a text input window in the application, where user (programmer) (hence "Usegrammer") can enter commands in Phoscript (Forth like Reverse Polish Notation), to ___FULLY CONTROL and MANIPULATE___ all objects and elements of the application (program), much like how a Unix shell is able to control and manipulate all elements in the operating system.
