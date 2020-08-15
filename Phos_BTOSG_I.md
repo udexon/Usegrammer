@@ -1,5 +1,9 @@
 ## Usegrammer = (Super) User + Programmer &mdash; Driving Free Software Revolution 2.0
 
+- [Part I](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_I.md)
+- [Part II](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_II.md)
+- [Part III](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_III.md)
+
 Usegrammer, is the combination of "user" and "programmer". The "superuser" is implied as all Linux users are "superuser" of their own system, and it conveys the special status as in the Tron universe.
 
 It is made possible by Phoscript, a lightweight Forth derivative that can be implemented as a shell script within any known programming language, thus making it easier for users to make modifications to an existing program, to enhance its functionalities, as well as help project teams solve one of its most pressing problems, both in the free software and corporate world &mdash; finding manpower to sustain or expand development activities.
