@@ -156,12 +156,14 @@ We believe that `svp:` is easier to remember than `dsSetViewpoint` .
 
 More importantly, Phos provides a facility to alias function names in C++ or any programming language. It is up to the programmer to decide a convenient alias, which can be changed or added at any time. 
 
-Yet another way to rewriting `dsSetViewpoint` in Phos is 
+Yet another way to rewriting `dsSetViewpoint` in Phos is: 
 ```
 sm_proc( "dsSetViewpoint(", xyz, hpr, ")" );
 ```
 
 In this way, we minimize the changes made to the original C++ code by preserving the order of function name, parameters and even brackets, where we simply tokenize them.
+
+By passing the parameter `"dsSetViewpoint("` to `sm_proc()`, it can then look up the function prototype for `dsSetViewpoint()`, and thus determine the number of types of its parameters, further automating parameter handling in `sm_proc()`. Currently, the parameters of `sm_svp()` are coded manually, as shown below:
 
 ```C++
 void sm_svp() // set view point
@@ -174,6 +176,7 @@ void sm_svp() // set view point
 }
 ```
 
+While we have not personally communicated with C++ committee members concerning the adoption of templating and metaprogramming constructs in modern C++, based on how naturally they fit into the metaprogramming schemes in Phoscript, we believe the C++ commitee members could have been considering similar issues to those in Phoscript.
 
 The varieties of incompatible Games and simulation applications illustrate perfectly the problem of programmer (programming languages and tools) fragmentation. 
 
