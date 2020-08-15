@@ -182,7 +182,7 @@ The examples of Phoscript words (function tokens) described in this article, `ne
 
 - https://github.com/udexon/Phoshell/blob/master/PhosIDE_Part_III.md
 
-Firstly, we wish to emphasize the simplicity of the Forth like Reverse Polish Notation expressions (RPNX) &mdash; although RPNX have been used in advanced systems such as Forth real time hardware systems and PDF/Postscript engine etc., we believe it is a programming language suitable for novice as well as experts, despite the lack of entry level examples as learning material for novice in recent years.
+Firstly, we wish to emphasize the simplicity of the Forth like Reverse Polish Notation expressions (RPNX) &mdash; although RPNX have been used in advanced systems such as Forth real time hardware systems and PDF/Postscript engine etc., we believe it is a programming language suitable for novice as well as experts, despite the lack of entry level examples as learning materials for novice in recent years, a gap that can be filled by Phoscript.
 
 Secondly, due to its suitability for both novice and experts, Phoscript can be picked up by the millions of novice programmers out there, especially non-Latin speakers who make up of the majority of the world population. Further, as they gain expertise, they can still use Phoscript to develop more advanced applications or modules.
 
