@@ -75,14 +75,14 @@ Line 409 `sm_proc()` maps the input string `newcar:` to the function `sm_newcar(
 
 `sm_proc( "newcar:" )`illustrates a trivial case of Phoscript RPNX where a host (C++) function is called WITHOUT any parameter. The mapping is accomplished in line 234 in function `map_func()` as shown in figure 4:
 
-Figure 4
+- Figure 4
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func_car.png" width=600>
 
 Let us illustrate how Phoscript RPNX handles C++ functions with parameters using `dsSetViewpoint(xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16), as shown in figure 5.:
 
 - https://bitbucket.org/odedevs/ode/src/master/ode/demo/demo_buggy.cpp
 
-Figure 5
+- Figure 5
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/demo_buggy.png" width=600>
 
 
@@ -90,17 +90,17 @@ Line 222 has been moved to line 378 in our version of `demo_buggy.cpp` as we hav
 
 The Phoscript equivalent of line 378 `dsSetViewpoint(xyz,hpr)` is `sm_proc( hpr, xyz, "svp:" )` in line 374, as shown in figure 6.
 
-Figure 6
+- Figure 6
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/ODE_buggy_svp.png" width=600>
 
 
 `sm_proc()` is implemented as a recursive variadic function, so as to take a variable number of parameters as shown in figures 7 and 8. The prefix `sm_` stands for "stack machine".
 
 
-Figure 7
+- Figure 7
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_1.png" width=600>
 
-Figure 8
+- Figure 8
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_proc_2.png" width=600>
 
 Firstly, the order of parameters in `dsSetViewpoint(xyz,hpr)` has been reversed:
@@ -120,13 +120,13 @@ Figures 9 to 11 show functions `sm_lastchar()` and `map_func()` required to impl
 - Lines 113 to 326 https://github.com/udexon/Usegrammer/blob/master/Usegrammer/demo_buggy_4.cpp
 - Lines 189 to 367 https://github.com/udexon/btosg/blob/master/examples/car.cpp
 
-Figure 9
+- Figure 9
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_1.png" width=600>
 
-Figure 10
+- Figure 10
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/sm_lastchar_2.png" width=600>
 
-Figure 11
+- Figure 11
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func.png" width=600>
 
 
