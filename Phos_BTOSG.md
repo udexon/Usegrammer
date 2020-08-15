@@ -24,6 +24,7 @@ Readers are encouraged to refer to the articles mentioned above as fundamental p
 In the original [`car.cpp`](https://github.com/udexon/btosg/blob/master/examples/car.cpp) in `miguelleitao/btosg`, lines 197 to 203 create a 4 wheeled car, as shown in figure 1:
 
 Figure 1
+
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/Car1.png" width=600>
 
 We have duplicated lines 197 to 203 with [modifications](https://github.com/udexon/btosg/blob/master/examples/car.cpp) , in order to create 4 additional cars as shown in figure 2:
