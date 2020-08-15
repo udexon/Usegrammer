@@ -1,4 +1,9 @@
 
+- [Part I](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_I.md)
+- [Part II](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_II.md)
+- [Part III](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_III.md)
+
+
 While we have not personally communicated with the C++ committee members concerning the adoption of templating and metaprogramming constructs in modern C++, based on how naturally they fit into the metaprogramming schemes in Phoscript, we believe the C++ commitee members could have been considering similar issues to those in Phoscript.
 
 The examples of Phoscript words (function tokens) described in this article, `newcar:` (to create a new car in BTOSG) and `svp:` (to set viewpoint in ODE), represent a good variety of high level and low level functions in C++ 3D related libraries. We are building up these _vocabularies_ (Forth terminology for "function libraries", i.e. "collection of _words_"), with reference to modifications of Jitsi Meet project (a video conferencing app based on React Redux framework), where we have introduced 3D three.js functions:
