@@ -1,4 +1,9 @@
 
+- [Part I](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_I.md)
+- [Part II](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_II.md)
+- [Part III](https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_III.md)
+
+
 Let us illustrate how Phoscript RPNX handles C++ functions with parameters using `dsSetViewpoint(xyz,hpr)` in line 222 of `demo_buggy.cpp` from Open Dynamics Engine (0.16), as shown in figure 5.:
 
 - https://bitbucket.org/odedevs/ode/src/master/ode/demo/demo_buggy.cpp
