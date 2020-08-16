@@ -81,7 +81,3 @@ Line 409 `sm_proc()` maps the input string `newcar:` to the function `sm_newcar(
 
 - Figure 4
 <img src="https://github.com/udexon/Usegrammer/blob/master/Usegrammer/map_func_car.png" width=600>
-
-- https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_II.md
-
-- https://github.com/udexon/Usegrammer/blob/master/Phos_BTOSG_III.md
