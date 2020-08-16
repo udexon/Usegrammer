@@ -20,7 +20,7 @@ The examples of Phoscript words (function tokens) described in this article, `ne
 
 There are many starting points in Phosway applications where a Usegrammer may begin, as described in Phoscript Tutorial.
 
-newcar: is a good starting point.
+`newcar:` is a good starting point.
 
 The next milestone that we may attempt to achieve is the following:
 
@@ -36,11 +36,16 @@ In summary, Phoscript has the following benefits:
 - Learn one word at a time, as natural as natural human languages.
 - Anyone can program.
 
-Ultimately, we wish to ....
 
+## Conclusions
 
-The varieties of incompatible Games and simulation applications illustrate perfectly the problem of programmer (programming languages and tools) fragmentation. 
+Literally millions of novice programmers (Usegrammers), with the guidance of expert programmers, can develop new modules of applications across all programming languages and frameworks using one universal script, Phoscript, one "word" (Phoscript function) at a time.
 
-We shall demonstrate how Phoscript may simplify the code and make it portable to other platforms.
+This is a big step forward from the existing free and open source software development model where programmers need to pick up a new programming language or framework before able to contribute, where Phoscript reduces the barrier of entry to the level of learning and using Excel (spreadsheet).
 
+Furthermore, the Phosway ID-less inter-gateway payment system, PhosPay, will enable online tipping for contributions by programmers, with payments in any national currency or cryptocurrency. This will incentivize teams of free and open source programmers to work more productively, instead of the current scenarios where the programmers receive no monetary rewards or can only receive sponsorships from a very small number of free and open source project sponsors. 
+
+With Phosway's new infrastructure, we hope to see free software programmers of the world work together to produce non proprietary versions of social networks applications and universal 3D interactive applications, simulations and games in a much shorter time (5 years) than the MAGA+F (Microsoft Apple Google Amazon Facebook) equivalent.
+
+Beyond cloning MAGA+F applications, we believe Phosway infrastructure will finally liberate the ultimate productivity of free software programmers of the world, to the extent where corporation employed software development will no longer surpass, just like how Linux kernel development has beaten all other operating system projects, but now incentivized and facilitated by Phosway in all types of applications ever conceived by human beings. 
 
