@@ -26,7 +26,7 @@ The next milestone that we may attempt to achieve is the following:
 
 - create Phoscript words to control (and destroy) each of the cars created individually.
 
-We wish to remind readers that Phoscript words should be as easy as Excel. The process by expert programmers to create Phoscript words to be used by Usegrammers also illustrate an important feature of Phoscript: hybrid API &mdash; caller function and callee function use different programming languages, to facilitate specializations of programmers. 
+We wish to remind readers that Phoscript words should be as easy as Excel. The process by expert programmers to create Phoscript words to be used by Usegrammers also illustrates an important feature of Phoscript: hybrid API &mdash; caller function and callee function use different programming languages, to facilitate specializations of programmers. 
 
 In contrast to hybrid API scenarios where caller function in programming languages such as Python or Java calling C++ functions, which are "many caller programming languages to one callee programming language", Phoscript functions present "one caller programming language to many callee programming languages". This hybrid API feature can be used in small teams to programmers to consolidate and streamline development. It is also scalable to large programming teams in open source projects involving hundreds or thousands of Usegrammers.
 
@@ -42,3 +42,5 @@ Ultimately, we wish to ....
 The varieties of incompatible Games and simulation applications illustrate perfectly the problem of programmer (programming languages and tools) fragmentation. 
 
 We shall demonstrate how Phoscript may simplify the code and make it portable to other platforms.
+
+
