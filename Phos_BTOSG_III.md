@@ -14,7 +14,27 @@ The examples of Phoscript words (function tokens) described in this article, `ne
 
 2. Secondly, due to its suitability for both novice and experts, Phoscript can be picked up by the millions of novice programmers out there, especially non-Latin speakers who make up of the majority of the world population. Further, as they gain expertise, they can still use Phoscript to develop more advanced applications or modules.
 
-3. There should be at least 50 million dedicated gamers worldwide if we assume every 1 in 100 of the population is a gamer. Assuming 1 in 100 gamers would spend some time learning programming to make modifications to games, this gives us 500,000 gamer-programmers. These are the typical Usegrammers we describe in this article. 
+3. There should be at least 50 million dedicated gamers worldwide if we assume every 1 in 100 of the population is a gamer. Assuming 1 in 100 gamers would spend some time learning programming to make modifications to games, this gives us 500,000 gamer-programmers. These are the typical Usegrammers we describe in this article. Gamer-programmers may use Phoscript as a unified platform and programming language for all games and apps. 
+
+4. Further, Usegrammers are not just restricted to Gamers. Phoscript is by definition as simple as Excel (spreadsheet) formulas. As such, anyone capable of using Excel can be a Phoscript Usegrammer. 
+
+There are many starting points in Phosway applications where a Usegrammer may begin, as described in Phoscript Tutorial.
+
+newcar: is a good starting point.
+
+The next milestone that we may attempt to achieve is the following:
+
+- create Phoscript words to control (and destroy) each of the cars created individually.
+
+We wish to remind readers that Phoscript words should be as easy as Excel. The process by expert programmers to create Phoscript words to be used by Usegrammers also illustrate an important feature of Phoscript: hybrid API &mdash; caller function and callee function use different programming languages, to facilitate specializations of programmers. 
+
+In contrast to hybrid API scenarios where caller function in programming languages such as Python or Java calling C++ functions, which are "many caller programming languages to one callee programming language", Phoscript functions present "one caller programming language to many callee programming languages". This hybrid API feature can be used in small teams to programmers to consolidate and streamline development. It is also scalable to large programming teams in open source projects involving hundreds or thousands of Usegrammers.
+
+In summary, Phoscript has the following benefits:
+
+- As simple as Excel.
+- Learn one word at a time, as natural as natural human languages.
+- Anyone can program.
 
 Ultimately, we wish to ....
 
